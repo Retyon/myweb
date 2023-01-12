@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Navy Cats</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+  </head>
+    <body>
+      
+      <h2 id="titulo-1">app de gatos</h2>
+      <main>
+        <h3>Imagenes de gatos</h3>
+        <!--Todo: agregar enlace a imagenes de gatos-->                                     <!--open new tab-->
+        <p>haz clic aqui para ver mas <a href="https://www.freecodecamp.org/espanol/learn/" target="_blank" rell="noopener noreferrer"> imagenes de gatos.</a></p>
+        
+        
+
+        <a href="https://www.freecodecamp.org/espanol/learn" target="_blank" rell="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat" class="imagen-de-gatos" id="cat" alt="un lindo gato naranja recostado sobre su espalda "></a>    <!--anti ataques-->
+         
+                                                                                                                                                  
+         <hr>
+         <h3> listas de gatos </h3>
+         <div class="contenedor-listas" id="container-1">
+
+          <p>cosas que los gatos aman :</p>
+          <ul id="lista-gatos-aman">
+            <li>menta gatuna</li>
+            <li>apuntadores laser</li>
+            <li>lasaña</li> 
+          </ul>
+          <img src="descarga.jpg"  class="imagen-de-lasagna" alt="lasagna">
+          <p>cosas que los gatos <strong>odian</strong>:</p>
+          <ol id="lista-gatos-odian">
+            <li>tratamientos antipulgas</li>
+            <li>truenos</li>
+            <li>otros gatos</li>
+          </ol>
+          <img src="bis.jpg" class="imagen-de-bis" id="bb">
+         </div>
+         <!--botones de radio-->
+         <form action="/enviar-respuesta">                                           
+          <label for="interior"><input id="interior" type="radio" value="interior"name="int-ex" checked>Interior</label>
+          <br>
+          <label for="Exterior"><input id="exterior" type="radio" value="exterior" name="int-ex">Exterior</label>
+          <br>
+          <label fir="Las dos"><input id="Las dos" type="radio" value="las dos" name="int-ex">Las dos</label>
+          <br>
+          <!--casillas de verificacion-->                            <!--name= grupo--> <!--casilla marcada predeterminada checked-->
+          <label for="carinoso"><input id="carinoso" type="checkbox" value="carinoso" name="personalidad" checked>Cariñoso</label><br>
+          <label for="perezoso"><input id="perezoso" type="checkbox" value="perezoso" name="personalidad" >Perezoso</label><br>
+          <label for="energico"><input id="energico" type="checkbox" value="energico" name="personalidad" >Energico</label><br>
+                                                                   <!--value para lectura del servidor-->
+          <!--texto y boton enviar-->
+          <input type="text" placeholder="say something" required>
+          <button type="submit">enviar</button>  
+         </form>
+           
+         
+      </main>
+      <footer>
+        <p><small> derechos de autor <a href="https://www.freecodecamp.org/espanol/learn/">freecodecamp.org</a></small></p>
+      </footer>
+
+    </body>
+</html>
